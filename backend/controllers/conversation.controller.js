@@ -17,7 +17,7 @@ export const createConversation = async (req, res, next) => {
     next(err);
   }
 };
-
+// message control
 export const updateConversation = async (req, res, next) => {
   try {
     const updatedConversation = await Conversation.findOneAndUpdate(

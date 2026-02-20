@@ -1,5 +1,6 @@
 import Gig from "../models/gig.model.js";
 import createError from "../utils/createError.js";
+// gig_id store
 
 export const createGig = async (req, res, next) => {
   if (!req.isSeller)
